@@ -41,11 +41,6 @@
 	<li>
 		<a <?php if ( isset( $_GET['sub'] ) && $_GET['sub'] == 'options' ) echo 'class="current"'; ?> href="<?php echo admin_url( 'tools.php?page=redirection.php' ); ?>&amp;sub=options">
 			<?php _e( 'Options', 'redirection' ); ?>
-		</a> <?php echo " | "; ?>
-	</li>
-	<li>
-		<a <?php if ( isset( $_GET['sub'] ) && $_GET['sub'] == 'support' ) echo 'class="current"'; ?> href="<?php echo admin_url( 'tools.php?page=redirection.php' ); ?>&amp;sub=support">
-			<?php _e( 'Support', 'redirection' ); ?>
 		</a>
 	</li>
 </ul>
